@@ -13,10 +13,14 @@ public:
 	string toString();
 	static Rmax zero;
 	static Rmax unit;
+<<<<<<< HEAD
     bool Rmax::operator ==(Rmax& other);
 	Rmax Rmax::operator + (Rmax& other);
 	Rmax Rmax::operator * (Rmax& other);
     Rmax& Rmax::operator =(Rmax& other);
+=======
+    Rmax& Rmax::operator =(Rmax& other);// & - ссылка
+>>>>>>> 0984f915b529cb865cb643961fc2bec4524bed7a
 	
 };
 

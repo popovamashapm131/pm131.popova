@@ -16,7 +16,7 @@ public:
     bool Rmax::operator ==(Rmax& other);
 	Rmax Rmax::operator + (Rmax& other);
 	Rmax Rmax::operator * (Rmax& other);
-    Rmax& Rmax::operator =(Rmax& other);// & - ссылка
+    Rmax& Rmax::operator =(Rmax& other);
 	
 };
 
